@@ -6,12 +6,10 @@ import { getAllMovies, getAllShows } from './../../redux/movies/movieSlice';
 
 
 const MovieListing = () => {
-
     const movies = useSelector(getAllMovies);
     const shows = useSelector(getAllShows);
     let renderMovies,
-      renderShows = "";
-    
+      renderShows = "";   
     renderMovies =
       movies.Response === "True" ? (
         movies.Search.map((movie, index) => (
@@ -32,7 +30,6 @@ const MovieListing = () => {
         </div>
       );
     
-
 
     return (
         <div className="movie-wrapper">
