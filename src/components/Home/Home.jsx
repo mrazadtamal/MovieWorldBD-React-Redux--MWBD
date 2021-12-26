@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux';
+import { fetchAsyncMovies, fetchAsyncShows } from '../../redux/movies/movieSlice';
 import MovieListing from '../MovieListing/MovieListing'
 import "./Home.scss"
 
