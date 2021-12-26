@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
 padding: 80px 60px;
-background: black;
+background:#0F0F0F;
 position: absolute;
 bottom: 0;
 width: 100%;
@@ -19,7 +19,6 @@ export const Container = styled.div`
 	justify-content: center;
 	max-width: 1000px;
 	margin: 0 auto;
-	/* background: red; */
 `
 
 export const Column = styled.div`
@@ -54,7 +53,7 @@ text-decoration: none;
 `;
 
 export const Heading = styled.p`
-font-size: 24px;
+font-size: 28px;
 color: #fff;
 margin-bottom: 40px;
 font-weight: bold;

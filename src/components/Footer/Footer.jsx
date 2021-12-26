@@ -14,32 +14,32 @@ return (
 	<h1 style={{ color: "green",
 				textAlign: "center",
 				marginTop: "-50px" }}>
-		GeeksforGeeks: A Computer Science Portal for Geeks
+		AZAD-MOVIE-WORLD-BD
 	</h1>
 	<Container>
 		<Row>
 		<Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
+			<Heading>CATEGORIES</Heading>
+			<FooterLink href="#">Anime</FooterLink>
+			<FooterLink href="#">Bangla Subtitled Movies</FooterLink>
+			<FooterLink href="#">IMDb Top 250 Movies</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+		<Heading></Heading>
+			<FooterLink href="#">TV & Web Series</FooterLink>
+			<FooterLink href="#">TV Show</FooterLink>
+			<FooterLink href="#">English (Hollywood)</FooterLink>
+			<FooterLink href="#">Animation & Cartoon Movies</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+		<Heading></Heading>
+			<FooterLink href="#">Bollywood Hindi Movies</FooterLink>
+			<FooterLink href="#">2K 1080p Full HD</FooterLink>
+			<FooterLink href="#">4K ULTRA-HD 2160p</FooterLink>
+			<FooterLink href="#">Bangla Subtitled Movies</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Social Media</Heading>
+		<Heading></Heading>
 			<FooterLink href="#">
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
