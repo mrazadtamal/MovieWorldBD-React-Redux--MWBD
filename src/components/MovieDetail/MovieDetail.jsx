@@ -24,7 +24,7 @@ const MovieDetail = () => {
   return (
     <div className="movie-section">
       {Object.keys(data).length === 0 ? (
-        <div>...Loading</div>
+          <img className="loading" src="https://res.cloudinary.com/abidazad/image/upload/v1640542972/ben-redblock-loading_cmfnyr.gif" alt="" />     
       ) : (
         <>
           <div className="section-left">
