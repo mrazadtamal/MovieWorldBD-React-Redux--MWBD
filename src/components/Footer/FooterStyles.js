@@ -52,7 +52,7 @@ text-decoration: none;
 `;
 
 export const Heading = styled.p`
-font-size: 28px;
+font-size: 22px;
 color: #fff;
 margin-bottom: 40px;
 font-weight: bold;
