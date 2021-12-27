@@ -11,9 +11,11 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	<h1 style={{ color: "#FFFFFF",
 				textAlign: "center",
-				marginTop: "-50px" }}>
+				marginTop: "-50px",
+				fontSize:"24px"
+				}}>
 		AZAD-MOVIE-WORLD-BD
 	</h1>
 	<Container>
@@ -50,7 +52,7 @@ return (
 			<FooterLink href="#">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
-				Instagram
+				LinkedIn
 				</span>
 			</i>
 			</FooterLink>
@@ -60,14 +62,7 @@ return (
 				Twitter
 				</span>
 			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-youtube">
-				<span style={{ marginLeft: "10px" }}>
-				Youtube
-				</span>
-			</i>
-			</FooterLink>
+			</FooterLink>		
 		</Column>
 		</Row>
 	</Container>

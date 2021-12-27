@@ -2,6 +2,7 @@
 import "./MovieDetail.scss"
 import React, { useEffect } from "react";
 
+
 import { useParams } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 import {

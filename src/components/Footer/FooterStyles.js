@@ -32,7 +32,6 @@ display: grid;
 grid-template-columns: repeat(auto-fill,
 						minmax(185px, 1fr));
 grid-gap: 20px;
-
 @media (max-width: 1000px) {
 	grid-template-columns: repeat(auto-fill,
 						minmax(200px, 1fr));
@@ -46,13 +45,13 @@ font-size: 18px;
 text-decoration: none;
 
 &:hover {
-	color: green;
+	color: gray;
 	transition: 200ms ease-in;
 }
 `;
 
 export const Heading = styled.p`
-font-size: 22px;
+font-size: 20px;
 color: #fff;
 margin-bottom: 40px;
 font-weight: bold;

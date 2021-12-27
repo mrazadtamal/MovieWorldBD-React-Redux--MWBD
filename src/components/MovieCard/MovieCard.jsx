@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const MovieCard = (props) => {
     const { data } = props;
     return (
-        
         <div className="card-item">
         <Link to={`/movie/${data.imdbID}`}>
           <div className="card-inner">
