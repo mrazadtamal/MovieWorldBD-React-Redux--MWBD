@@ -10,7 +10,7 @@ const [movie, setMovie]=  useState("")
 const dispatch =  useDispatch()
  const submitHandlar = (e)=>{
       e.preventDefault()
-      console.log(movie);
+     if(movie === "") return alert("Please Enter a Movie Name")
       dispatch(fetchAsyncMovies(movie))
       dispatch(fetchAsyncShows(movie))
       setMovie("")
