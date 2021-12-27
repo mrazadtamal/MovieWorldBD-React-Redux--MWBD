@@ -1,17 +1,21 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { fetchAsyncMovies, fetchAsyncShows } from '../../redux/movies/movieSlice'
 import "./Header.scss"
 
 
 const Header = () => {
 const [movie, setMovie]=  useState("")
+const dispatch =  useDispatch()
  const submitHandlar = (e)=>{
-e.preventDifault()
-console.log(movie);
+      e.preventDefault()
+      console.log(movie);
+      dispatch(fetchAsyncMovies(movie))
+      dispatch(fetchAsyncShows(movie))
+      setMovie("")
  }
-
-
-    return (
+   return (
         <div className="header">
       <Link to="/" style={{ textDecoration: 'none' }}>
         <div className="logo">MOVIE-WORLD-BD</div>
