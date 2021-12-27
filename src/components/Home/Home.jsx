@@ -6,9 +6,11 @@ import "./Home.scss"
 
 const Home = () => {
     const dispatch = useDispatch();
+    const movieText = "Spider-Man";
+    const seriesText = "Thrones";
     useEffect(() => {
-      dispatch(fetchAsyncMovies());
-      dispatch(fetchAsyncShows());
+      dispatch(fetchAsyncMovies(movieText));
+      dispatch(fetchAsyncShows(seriesText));
     }, [dispatch]);
     return (
         <div>
