@@ -13,8 +13,7 @@
   color: $font-primary;
   font-size: 20px;
   font-weight: 600;
-  text-decoration:  none;
-  
+  text-decoration: none;
 }
 
 .user-image,
@@ -23,31 +22,92 @@
   height: 38px;
 }
 
-.search{
+.search {
   width: 60%;
   display: flex;
   justify-content: center;
 
-  form{
+  form {
     display: flex;
     justify-content: center;
     width: 70%;
 
-    button{
+    button {
       font-size: 15px;
       cursor: pointer;
       height: 38px;
-      padding:0px  8px;
-
+      padding: 0px 8px;
     }
   }
 
-  input{
+  input {
     font-size: 18px;
     width: 100%;
     padding: 5px 5px 5px 10px;
+    height: 38px;
+    outline: none;
+  }
+}
+.search-m {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    button {
+      font-size: 15px;
+      cursor: pointer;
       height: 38px;
-      outline: none;
+      padding: 0px 8px;
+    }
+  }
+
+  input {
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    height: 38px;
+    outline: none;
   }
 }
 
+.active {
+  max-height: 0px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .search {
+    width: auto;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      padding: 4px;
+      font-size: 20px;
+    }
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .user-image,
+  .user-image img {
+    width: 30px;
+    height: 30px;
+  }
+}
