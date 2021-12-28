@@ -24,7 +24,7 @@ const Header = () => {
       <div className="header">
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="logo desktop">MOVIE-WORLD-BD</div>
-          <div className="logo mobile">MWB</div>
+          <div className="logo mobile">MWBD</div>
         </Link>
         <div className="search desktop">
           <form onSubmit={submitHandlar}>

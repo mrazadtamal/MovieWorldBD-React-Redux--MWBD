@@ -6,10 +6,9 @@
   padding: 40px 0px;
   color: $font-primary;
   font-weight: 400;
- 
 }
-.loading{
-    width: 100%;
+.loading {
+  width: 100%;
 }
 
 .movie-rating {
@@ -60,7 +59,21 @@
 
 .section-right {
   margin-left: 30px;
- img{
+  img {
     border-radius: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    color: $font-primary;
+    font-weight: 400;
+    flex-wrap: wrap-reverse;
+  }
+  .section-right {
+    margin-left: 0;
   }
 }
